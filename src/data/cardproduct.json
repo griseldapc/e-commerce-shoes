@@ -1,0 +1,74 @@
+[
+    {
+        "image": "./assets/1.png",
+        "title": "AIR MAX",
+        "description": "Nike Air Max Plus Mercurial 25",
+        "price": "$320"
+    },
+    {
+        "image": "./assets/2.png",
+        "title": "AIR MAX",
+        "description": "Nike Air Max Flyknit Racer",
+        "price": "$210"
+    },
+    {
+        "image": "./assets/3.png",
+        "title": "JORDAN",
+        "description": "Jordan Max Aura 5",
+        "price": "$180"
+    },
+    {
+        "image": "./assets/6.png",
+        "title": "JORDAN",
+        "description": "Jumpman MVP",
+        "price": "$410"
+    },
+    {
+        "image": "./assets/5.png",
+        "title": "AIR JORDAN",
+        "description": "Air Jordan Legacy 312 Low",
+        "price": "$180"
+    },
+    {
+        "image": "./assets/12.png",
+        "title": "JORDAN",
+        "description": "Jordan Nu Retro 1 Low",
+        "price": "$180"
+    },
+    {
+        "image": "./assets/8.png",
+        "title": "JORDAN",
+        "description": "Jordan Stay Loyal 2",
+        "price": "$120"
+    },
+    {
+        "image": "./assets/10.png",
+        "title": "AIR MAX",
+        "description": "Giannis Immortality 2",
+        "price": "$150"
+    },
+    {
+        "image": "./assets/9.png",
+        "title": "JORDAN",
+        "description": "Jordan One Take 4 PF",
+        "price": "$210"
+    },
+    {
+        "image": "./assets/7.png",
+        "title": "AIR MAX",
+        "description": "Nike Air Max Plus",
+        "price": "$140"
+    },
+    {
+        "image": "./assets/11.png",
+        "title": "JORDAN",
+        "description": "Air Jordan XXXVII Low PF",
+        "price": "$420"
+    },
+    {
+        "image": "./assets/4.png",
+        "title": "JORDAN",
+        "description": "Jordan One Take 4 PF",
+        "price": "$150"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "image": "./assets/c1.png",
+        "type": "JORDAN",
+        "description": "Jordan Jump MVP",
+        "price": "$210"
+    },
+    {
+        "image": "./assets/c2.png",
+        "type": "AIR FORCE",
+        "description": "Nike Air Force 1 Mid",
+        "price": "$320"
+    }
+]

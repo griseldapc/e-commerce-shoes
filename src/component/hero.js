@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../img/jordan.png"
 
 export default function Hero() {
     return (
@@ -34,12 +35,12 @@ export default function Hero() {
                     </h2>
                 </div>
 
-                <div className=" w-[550px] -mt-4 justify-center relative ml-10">
+                <div className=" w-[550px] -mt-4 justify-center relative mx-auto ">
                     <i className="font-bold text-7xl text-center relative z-10">
                         CRAFTED FOR CHAMPIONS
                     </i>
-                    <img src="https://o.remove.bg/downloads/02a8d9af-0eca-4aae-a908-3f51c9c04c62/4f242b3718b82f8d82277c7528af286e-removebg-preview.png" className="transform rotate-[25deg] scale-x-[-1] items-center mx-auto -mt-60 ml-20"></img>
-                    <img src="https://cdn-icons-png.flaticon.com/128/3236/3236907.png" className="w-16 transform rotate-90 items-center justify-center mx-auto -mt-[133px]"/>
+                    <img src={image} className="w-[450px] transform rotate-[25deg] scale-x-[-1] items-center mx-auto -mt-48 ml-20"></img>
+                    <img src="https://cdn-icons-png.flaticon.com/128/3236/3236907.png" className="w-16 transform rotate-90 mx-auto absolute bottom-0 items-center justify-center ml-60"></img>
                 </div>
 
                 <div className="ml-20">

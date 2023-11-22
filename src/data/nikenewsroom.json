@@ -1,0 +1,44 @@
+[
+    {
+        "image": "./assets/n1.jpg",
+        "date": "September 05, 2023",
+        "artikel": "Nike Debuts the ISPA Link Axis, an Exploration Design",
+        "b1": "Release",
+        "b2": "Design"
+    },
+    {
+        "image": "./assets/n2.jpg",
+        "date": "August 10, 2023",
+        "artikel": "The Nike Kobe 8 is Back in Proto From",
+        "b1": "Release",
+        "b2": "Design"
+    },
+    {
+        "image": "./assets/n3.jpg",
+        "date": "July 18, 2023",
+        "artikel": "Nike Launches New Global Football–Inspired Workouts",
+        "b1": "Release",
+        "b2": "Partnership"
+    },
+    {
+        "image": "./assets/n4.jpg",
+        "date": "July 18, 2023",
+        "artikel": "The Nike AU Collection Is Made by Australia, for the World",
+        "b1": "Release",
+        "b2": "Comunity"
+    },
+    {
+        "image": "./assets/n5.jpg",
+        "date": "June 20, 2023",
+        "artikel": "Nike Launches Airphoria in Fortnite",
+        "b1": "Release",
+        "b2": "Experience"
+    },
+    {
+        "image": "./assets/n6.jpg",
+        "date": "May 31, 2023",
+        "artikel": "Taylor Brings Artistry to Her First Jordan Brand Collection",
+        "b1": "Release",
+        "b2": "Design"
+    }
+]
