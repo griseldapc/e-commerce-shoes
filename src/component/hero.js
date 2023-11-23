@@ -4,7 +4,7 @@ import image from "../img/jordan.png"
 export default function Hero() {
     return (
         <>
-            <nav className="p-10 flex flex-row">
+            <nav className="p-10 flex flex-row -mt-10">
                 <div>
                     <h1 className="text-left font-bold text-3xl space-y-3 tracking-wide">
                         <ul className="">
@@ -29,18 +29,22 @@ export default function Hero() {
                             We've dedicated ourselves to crafting the perfect footwear for every basketball enthusiast.
                         </p>
                         <li className="flex mt-3 gap-3">
-                            <img src="https://artemporary.files.wordpress.com/2014/05/asteriscofucsia.gif" className="w-16"></img>
+                            <img src="https://artemporary.files.wordpress.com/2014/05/asteriscofucsia.gif" className="w-16 animate-spin" style={{ animationDuration: "2s" }} ></img>
                             <ul className="text-6xl font-bold">2023</ul>
                         </li>
                     </h2>
                 </div>
 
                 <div className=" w-[550px] -mt-4 justify-center relative mx-auto ">
-                    <i className="font-bold text-7xl text-center relative z-10">
-                        CRAFTED FOR CHAMPIONS
-                    </i>
+                <i className="font-bold text-7xl text-center relative z-10 " style={{ textShadow: '0 0 10px #ff0000' }}>
+  CRAFTED FOR CHAMPIONS
+</i>
+
                     <img src={image} className="w-[450px] transform rotate-[25deg] scale-x-[-1] items-center mx-auto -mt-48 ml-20"></img>
-                    <img src="https://cdn-icons-png.flaticon.com/128/3236/3236907.png" className="w-16 transform rotate-90 mx-auto absolute bottom-0 items-center justify-center ml-60"></img>
+                    <a href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5166/5166100.png" className="w-16  mx-auto absolute bottom-0 items-center justify-center ml-60 animate-bounce "></img>
+                    </a>
+                    
                 </div>
 
                 <div className="ml-20">
@@ -63,7 +67,7 @@ export default function Hero() {
                         </ul>
                         <p className="mt-5 flex gap-3">
                             <img src="https://cdn-icons-png.flaticon.com/128/420/420048.png" className="w-10"></img>
-                            <button className="p-2  px-5 rounded-full text-white bg-black">Add to Bag</button>
+                            <button className="p-2  px-5 rounded-full text-white bg-black hover:bg-transparent hover:border hover:border-black hover:text-black ">Add to Bag</button>
                         </p>
                     </h2>
                 </div>

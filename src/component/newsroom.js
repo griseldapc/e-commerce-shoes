@@ -8,12 +8,12 @@ export default function Newsroom() {
         setJsonData(data); //menggunakan data dari artikel.json
     }, []);
     return (
-        <main className="p-10">
+        <main className="p-10 -mt-10">
             <div className="flex justify-between">
                 <h1 className="font-bold text-4xl text-left">
                     NIKE NEWSROOM
                 </h1>
-                <button className="p-2  px-5 rounded-full text-white bg-black">More News</button>
+                <button className="p-2  px-5 rounded-full text-white bg-black hover:bg-white hover:text-black border-2 border-black">More News</button>
             </div>
             <div className="mt-14 flex gap-56">
                 <h1 className="text-left font-bold text-xl space-y-3 tracking-wide">
@@ -41,8 +41,8 @@ export default function Newsroom() {
                                 <p className="font-normal text-sm py-3">{item.date}</p>
                                 <p className="font-bold w-60">{item.artikel}</p>
                                 <ul className="space-x-5 mt-5 text-sm">
-                                    <button className="px-5 border-2 border-black rounded-2xl py-1">{item.b1}</button>
-                                    <button className="px-5 border-2 border-black rounded-2xl py-1">{item.b2}</button>
+                                    <button className="px-5 border-2 border-black rounded-2xl py-1 hover:bg-black hover:text-white">{item.b1}</button>
+                                    <button className="px-5 border-2 border-black rounded-2xl py-1 hover:bg-black hover:text-white">{item.b2}</button>
                                 </ul>
                             </ul>
                         </a>

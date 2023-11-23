@@ -13,7 +13,7 @@ export default function Product() {
                 <h1 className="font-bold text-4xl text-left">
                     OUR PRODUCT
                 </h1>
-                <button className="p-2  px-5 rounded-full text-white bg-black">More Products</button>
+                <button className="p-2  px-5 rounded-full text-white bg-black hover:bg-white hover:text-black border-2 border-black">More Products</button>
             </div>
 
             <div className="py-10 flex flex-wrap gap-5">
