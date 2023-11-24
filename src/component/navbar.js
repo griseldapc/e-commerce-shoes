@@ -1,25 +1,53 @@
-import React from "react";
+// Import statements
+import React, { useState } from "react";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
-export default function Navbar() {
-  return (
-    <nav className="p-10">
-      <div className="container mx-auto flex items-center justify-between">
-        <div>
-        <img src="https://cdn-icons-png.flaticon.com/128/732/732084.png" className="w-16"></img>
-        </div>
-        <div className="flex justify-center gap-6 items-center">
-          <a href="#" className="">New & Featured</a>
-          <a href="#" className="">Men</a>
-          <a href="#" className="">Women</a>
-          <a href="#" className="">Kids</a>
-          <a href="#" className="">Sale</a>
-        </div>
-        <div className="flex gap-7">
-          <img src="https://cdn-icons-png.flaticon.com/128/622/622669.png" className="w-5"></img>
-          <img src="https://cdn-icons-png.flaticon.com/128/151/151910.png" className="w-5"></img>
-          <img src="https://cdn-icons-png.flaticon.com/128/1288/1288704.png" className="w-5"></img>
-        </div>
-      </div>
-    </nav>
-  );
-};
+// Component
+const Header = () => {
+    // State for the menu icon
+    const [menuIcon, setIcon] = useState(false);
+
+    // Function to handle smaller screen navigation
+    const handleSmallerScreenNavigation = () => {
+        setIcon(!menuIcon);
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('top-[9%]');
+    }
+
+    return (
+        <nav className="flex justify-between items-center w-[92%] mx-auto bg-white">
+            <div>
+                <img className="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="..."></img>
+            </div>
+            <div className={`nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-${menuIcon ? '0' : '-100%'} md:w-auto w-full flex items-center px-5`}>
+                <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Products</a>
+                    </li>
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Solution</a>
+                    </li>
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Resource</a>
+                    </li>
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Developers</a>
+                    </li>
+                    <li>
+                        <a className="hover:text-gray-500" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+            <div className="flex items-center gap-6">
+                <button className="bg-[#a6c1ee] text-white px-5 py-2 rounded-full hover:bg-[#87acec]">Sign in</button>
+                {menuIcon ? (
+                    <AiOutlineClose onClick={handleSmallerScreenNavigation} className="text-3xl cursor-pointer md:hidden" />
+                ) : (
+                    <AiOutlineMenu onClick={handleSmallerScreenNavigation} className="text-3xl cursor-pointer md:hidden" />
+                )}
+            </div>
+        </nav>
+    );
+}
+
+export default Header;

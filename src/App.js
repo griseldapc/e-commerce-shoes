@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './component/navbar';
+import Header from './component/header';
 import Hero from './component/hero';
 import Collection from './component/collection';
 import Product from './component/product';
@@ -10,7 +10,7 @@ import Footer from './component/footer';
 export default function App() {
   return (
     <div className="App">
-        <Navbar />
+        <Header />
         <Hero />
         <Collection />
         <Product />
